@@ -1,25 +1,25 @@
 class Warlock < Formula
   desc "A terminal UI that keeps AI-readable documentation of a codebase current"
   homepage "https://github.com/Genetic-Pottery/warlock"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.0/warlock-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "4104c5a04a958e323e058c2abdc6a60c554c744642a7b27070363fa6440bb92d"
+      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.1/warlock-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "49b065e7cb5337a7661db705901bdd56aacb95c115ec4b91b2ae0a99122ae3c5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.0/warlock-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "c0f308ab6d24b8133e004c7e3c40cb7cbeaf9f19381ad663ad6e696e9be1fef7"
+      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.1/warlock-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "e9f2c90264107c6b2b4ddf5bb77f833e27f6cb340a4061e353ce2f432520556c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.0/warlock-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ca00378bd7a29296793ea09e69165965cb00cc18de2422bba1a5cf04c8b7aabd"
+      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.1/warlock-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "410de67bbb385b5a51fc6cce3bbbf14e343de7f03391ca3abf3d691150282183"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.0/warlock-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bb1096785a068ef4c31c998fa0a87b7b16e91ea66ecc15c6788bbf0a5134c73c"
+      url "https://github.com/Genetic-Pottery/warlock/releases/download/v0.1.1/warlock-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "245b82d7fc0f0f5a27d8862458ee96af363f6ac8224543472390ba90689a316c"
     end
   end
   license "Apache-2.0"
